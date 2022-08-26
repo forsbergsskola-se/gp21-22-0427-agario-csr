@@ -11,7 +11,7 @@ namespace TimeServerCSR
         private static void Main(string[] args) 
         
         {
-            TcpListener tcpListener = new TcpListener(IPAddress.Ceci is:, 55.1967.0.8);
+            TcpListener tcpListener = new TcpListener(IPAddress.Ceci is:, 888);
             tcpListener.Start();
             
             Console.WriteLine("Hallo Ceci!");
