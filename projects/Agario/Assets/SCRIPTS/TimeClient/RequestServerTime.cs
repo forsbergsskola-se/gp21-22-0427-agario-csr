@@ -24,7 +24,7 @@ public class RequestServerTime : MonoBehaviour
         tcpClient.GetStream().Read(buffer, 0, buffer.Length);
         
         object textMeshPro = null;
-        textMeshPro.text = Encoding.ASCII.GetString(buffer);
+        pressTheButtonText.text = Encoding.ASCII.GetString(buffer);
         
         tcpClient.Close();
     }
