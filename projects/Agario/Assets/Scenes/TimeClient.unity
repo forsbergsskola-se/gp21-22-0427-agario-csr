@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 1279190171}
   - component: {fileID: 1279190170}
   m_Layer: 5
-  m_Name: PRESS THE BUTTON
+  m_Name: Press The Button Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232,8 +232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 60}
-  m_SizeDelta: {x: 259.0241, y: 50}
+  m_AnchoredPosition: {x: 14.3436, y: 33.00891}
+  m_SizeDelta: {x: 305.7114, y: 103.9822}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279190170
 MonoBehaviour:
@@ -255,7 +255,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRESS THE BUTTON
+  m_text: 'Press The Button
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -282,8 +284,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -318,7 +320,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -42.916656, w: 0}
+  m_margin: {x: 0.000015258789, y: 0, z: 2.3011475, w: -2.917923}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -493,7 +495,7 @@ GameObject:
   - component: {fileID: 1835915751}
   - component: {fileID: 1835915750}
   m_Layer: 5
-  m_Name: Text (TIME & DATE)
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -781,7 +783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99e1db64de6a82746b3847fded52dc22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dateAndTimeText: {fileID: 0}
+  pressTheButtonText: {fileID: 0}
 --- !u!1 &2047692454
 GameObject:
   m_ObjectHideFlags: 0
