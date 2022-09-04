@@ -20,6 +20,7 @@ Commit
 ## Prerequisites
 You will need: 
 - The `TcpListener`-class found in `System.Net.Sockets`.
+  - `TcpListener(int port)` will open a Socket for incoming connections on the given port.
   - `Start` will start the listener.
   - `AcceptTcpClient`-Method handles the acknowledgement of new connections for you. It returns a `TcpClient`.
   - `Stop` needs to be called when you do not want to listen for packets on this port anymore.
@@ -27,8 +28,9 @@ You will need:
   - `GetStream` gets you the current stream used for the client. It returns a `Stream`.
   - `Close` needs to be called when you are done using the `TcpClient`.
 - The `Stream`-class is returned by `GetStream`
-  - `Write` allows you to send Bytes over the socket.
-  - `Close` needs to be called when you are done sending bytes over the stream.
+  - `Write` allows you to send Bytes over the socket. This will be buffered for performance reason.
+  - `Flush` will actually send all buffered bytes.
+  - `Close` needs to be called when you are done sending bytes over the stream. This will also invoke `Flush`
 - `DateTime.Now` Gives you the current Date & Time.
   - `ToString` returns you a nicely formatted `string`.
 - `Encoding.ASCII.GetBytes` Can convert a `string` to ASCII-`byte[]` for you.
@@ -45,11 +47,15 @@ So, what is our server supposed to do?
 
 This means, that whenever someone connects via TCP, our Server will send the current Date and Time and close the connection.\
 Neat little TimeServer.\
+
+## How to Test
 You can Run the Code within Rider using the Play Button.\
 Not much will happen, yet, though.\
 We need a Client to Connect in order to see, whether everything works.\
-If you install `netcat` on Windows, or if you're on a Mac or Linux System:\
-You can use `nc -v 127.0.0.1 44444` where `127.0.0.1` is the server's ip and `44444` is the server's port number.
+On Mac or Linux, you can:
+- use `nc -v 127.0.0.1 44444` where `127.0.0.1` is the server's ip and `44444` is the server's port number.
+On Windows, you need to install [NCat](https://nmap.org/ncat/) and then you can:
+- use `ncat -v 127.0.0.1 44444` where `127.0.0.1` is the server's ip and `44444` is the server's port number.
 To test your Timeserver.
 
 <img width="706" alt="image" src="https://user-images.githubusercontent.com/7360266/115593725-28224380-a2d5-11eb-9541-548f4f52ce16.png">
