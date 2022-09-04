@@ -1,3 +1,11 @@
+1 - Time Server (this wuork fine)
+
+![Agario-2](https://user-images.githubusercontent.com/90723803/188310098-ca95858d-7f94-467d-a1d5-4ee4f2016d85.JPG)
+
+![Agario-3](https://user-images.githubusercontent.com/90723803/188310018-844620ff-07b5-4196-bb64-acd114e7b0c9.jpg)
+
+
+
 # Goal of this Assignment
 The goal of this assignment is to introduce you to Game-Server-Development using `C#` and the `TCP` and `UDP` Protocols.\
 In total, our steps will include:
