@@ -1,4 +1,3 @@
-using System;
 using System.Net.Sockets;
 using System.Text;
 using UnityEngine;
@@ -7,58 +6,28 @@ using UnityEngine.UI;
 public class RequestServerTime : MonoBehaviour 
 
 {
-    [SerializeField] Text Text_DateandTimenow;
+    public Text Text_DateAndTimeNowCSR;
 
     public void SendRequest() 
     
     {
         TcpClient tcpClient = new TcpClient("127.0.0.1", 44444);
 
-        var stream = tcpClient.GetStream();
+        var serverStream = tcpClient.GetStream();
         
-        byte[] bytes = new byte[tcpClient.ReceiveBufferSize];
-        stream.Read(bytes, 0, bytes.Length);
+        byte[] buffer = new byte[100];
         
-        string message = Encoding.ASCII.GetString(bytes);
+        serverStream.Read(buffer, 0, 100);
+        
+        string dateTime = Encoding.ASCII.GetString(buffer);
 
-        UpdateText(message);
+        ChangeText(dateTime);
     }
+    
 
-    private void UpdateText(string message) 
+    public void ChangeText(string dateTime) 
     
     {
-        Text_DateandTimenow.text = message;
+        Text_DateAndTimeNowCSR.text = dateTime;
     }
 }
-
-
-// using System;
-// using System.Net;
-// using System.Net.Sockets;
-// using System.Text;
-// using TMPro;
-// using UnityEngine;
-// using UnityEngine.UI;
-//
-//
-// namespace TimeClient
-// {
-//     public class RequestServerTime : MonoBehaviour
-//     {
-//         /*[SerializeField] private TextMeshProUGUI textMeshPro;
-//         
-//         public void SendRequest()
-//         {
-//             // var serverEndPoint = new IPEndPoint(IPAddress.Loopback, 44444);
-//             // var clientEndPoint = new IPEndPoint(IPAddress.Loopback, 44445);
-//             TcpClient tcpClient = new TcpClient("127.0.0.1", 44444);
-//             byte[] buffer = new byte[tcpClient.100];
-//
-//             IPEndPoint serverEndPoint = null;
-//             tcpClient.Connect(serverEndPoint);
-//             tcpClient.GetStream().Read(buffer, 0, buffer.Length);
-//             textMeshPro.text = Encoding.ASCII.GetString(buffer);
-//             tcpClient.Close();*/
-//         
-//     }
-// }
