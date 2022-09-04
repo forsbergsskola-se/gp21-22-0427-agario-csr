@@ -3,7 +3,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RequestServerTime : MonoBehaviour 
+public class RequestServerTime : MonoBehaviour
 
 {
     public Text Text_DateAndTimeNowCSR;
