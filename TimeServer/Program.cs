@@ -13,7 +13,7 @@ namespace TimeServerCSR
         {
             TcpListener tcpListener = new TcpListener(IPAddress.Any, 44444);
             tcpListener.Start();
-            
+            //Console.WriteLine(tcpListener);
             Console.WriteLine("Connecting!");
             
             while (true) 
