@@ -1,3 +1,4 @@
+using System;
 using System.Net.Sockets;
 using System.Text;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class RequestServerTime : MonoBehaviour
         TcpClient tcpClient = new TcpClient("127.0.0.1", 44444);
 
         var serverStream = tcpClient.GetStream();
+        Console.WriteLine(serverStream);
         
         byte[] buffer = new byte[100];
         
@@ -22,6 +24,7 @@ public class RequestServerTime : MonoBehaviour
         string dateTime = Encoding.ASCII.GetString(buffer);
 
         ChangeText(dateTime);
+        Console.WriteLine(dateTime);
     }
     
 
