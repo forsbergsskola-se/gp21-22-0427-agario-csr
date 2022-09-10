@@ -4,6 +4,9 @@
 
 ![Agario-3](https://user-images.githubusercontent.com/90723803/188310018-844620ff-07b5-4196-bb64-acd114e7b0c9.jpg)
 
+Part 2 - Time Client
+
+![Agario-Capture](https://user-images.githubusercontent.com/90723803/189485488-7a18bce9-f264-4f0d-bab1-3ba8804c93c9.JPG)
 
 
 # Goal of this Assignment
