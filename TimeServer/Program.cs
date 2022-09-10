@@ -5,9 +5,7 @@ using System.Text;
 
 namespace TimeServerCSR
 {
-    class Program
-    
-    {
+    class Program {
         private static void Main(string[] args) 
         
         {
@@ -20,7 +18,7 @@ namespace TimeServerCSR
             
             {
                 var tcpClient = tcpListener.AcceptTcpClient();
-                
+                Console.WriteLine(tcpClient);
                 //Console.WriteLine("Waiting for connection...");
                 Console.WriteLine($"Client {tcpClient.Client.RemoteEndPoint} connected.");
                 
