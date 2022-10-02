@@ -1,4 +1,4 @@
-1 - Time Server (this wuork fine)
+Part 1 - Time Server
 
 ![Agario-2](https://user-images.githubusercontent.com/90723803/188310098-ca95858d-7f94-467d-a1d5-4ee4f2016d85.JPG)
 
@@ -7,6 +7,10 @@
 Part 2 - Time Client
 
 ![Agario-Capture](https://user-images.githubusercontent.com/90723803/189485488-7a18bce9-f264-4f0d-bab1-3ba8804c93c9.JPG)
+
+Part 3 - Open word Client
+
+![Agario-3](https://user-images.githubusercontent.com/90723803/193449865-7011078e-f710-4073-ae95-c6fb53944fe7.JPG)
 
 
 # Goal of this Assignment
