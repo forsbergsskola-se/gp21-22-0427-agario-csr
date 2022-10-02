@@ -10,7 +10,8 @@ Part 2 - Time Client
 
 Part 3 - Open word Client
 
-![Agario-3](https://user-images.githubusercontent.com/90723803/193449865-7011078e-f710-4073-ae95-c6fb53944fe7.JPG)
+![Agario-3](https://user-images.githubusercontent.com/90723803/193452562-d091ed45-dd82-46d8-8a48-596709bf4836.JPG)
+
 
 
 # Goal of this Assignment
