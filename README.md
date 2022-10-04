@@ -1,4 +1,4 @@
-AgarioGame
+# AgarioGame -My own version of Agar 
 
 
 https://user-images.githubusercontent.com/90723803/193925190-5f7e8922-fd41-4150-809d-4ca91876dc96.mov
@@ -7,20 +7,19 @@ https://user-images.githubusercontent.com/90723803/193925190-5f7e8922-fd41-4150-
 https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-bf5f-26cf0417c9cd.mov
 
 
-
 https://user-images.githubusercontent.com/90723803/193916754-b436b3f4-6cdd-4f82-9f0c-7562dc051fce.mov
 
-Part 1 - Time Server
+# Part 1 - Time Server
 
 ![Agario-2](https://user-images.githubusercontent.com/90723803/188310098-ca95858d-7f94-467d-a1d5-4ee4f2016d85.JPG)
 
 ![Agario-3](https://user-images.githubusercontent.com/90723803/188310018-844620ff-07b5-4196-bb64-acd114e7b0c9.jpg)
 
-Part 2 - Time Client
+# Part 2 - Time Client
 
 ![Agario-Capture](https://user-images.githubusercontent.com/90723803/189485488-7a18bce9-f264-4f0d-bab1-3ba8804c93c9.JPG)
 
-Part 3 - Open word Client
+# Part 4 - Open word Client
 
 ![Agario-3](https://user-images.githubusercontent.com/90723803/193452562-d091ed45-dd82-46d8-8a48-596709bf4836.JPG)
 
