@@ -1,5 +1,13 @@
 Part 1 - Time Server
 
+https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-bf5f-26cf0417c9cd.mov
+
+
+
+https://user-images.githubusercontent.com/90723803/193916754-b436b3f4-6cdd-4f82-9f0c-7562dc051fce.mov
+
+
+
 ![Agario-2](https://user-images.githubusercontent.com/90723803/188310098-ca95858d-7f94-467d-a1d5-4ee4f2016d85.JPG)
 
 ![Agario-3](https://user-images.githubusercontent.com/90723803/188310018-844620ff-07b5-4196-bb64-acd114e7b0c9.jpg)
