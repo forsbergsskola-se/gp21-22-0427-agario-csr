@@ -1,4 +1,4 @@
-Part 1 - Time Server
+AgarioGame
 
 
 https://user-images.githubusercontent.com/90723803/193925190-5f7e8922-fd41-4150-809d-4ca91876dc96.mov
@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-
 
 https://user-images.githubusercontent.com/90723803/193916754-b436b3f4-6cdd-4f82-9f0c-7562dc051fce.mov
 
-
+Part 1 - Time Server
 
 ![Agario-2](https://user-images.githubusercontent.com/90723803/188310098-ca95858d-7f94-467d-a1d5-4ee4f2016d85.JPG)
 
