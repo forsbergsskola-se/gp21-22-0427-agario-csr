@@ -1,5 +1,9 @@
 Part 1 - Time Server
 
+
+https://user-images.githubusercontent.com/90723803/193925190-5f7e8922-fd41-4150-809d-4ca91876dc96.mov
+
+
 https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-bf5f-26cf0417c9cd.mov
 
 
