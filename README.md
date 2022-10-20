@@ -1,7 +1,5 @@
 # AgarioGame -My own version of Agar.io
 
-
-
 https://user-images.githubusercontent.com/90723803/193925190-5f7e8922-fd41-4150-809d-4ca91876dc96.mov
 
 https://user-images.githubusercontent.com/90723803/193916754-b436b3f4-6cdd-4f82-9f0c-7562dc051fce.mov
@@ -18,11 +16,9 @@ https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-
 
 ![Agario-3](https://user-images.githubusercontent.com/90723803/188310018-844620ff-07b5-4196-bb64-acd114e7b0c9.jpg)
 
-
 # Part 2 - Time Client
 
-![Agario-Capture](https://user-images.githubusercontent.com/90723803/189485488-7a18bce9-f264-4f0d-bab1-3ba8804c93c9.JPG)
-
+![Time server](https://user-images.githubusercontent.com/90723803/196994964-bbd378e5-7782-456c-abea-bfda5eb97f3c.JPG)
 
 # Part 4 - Open word Client
 
