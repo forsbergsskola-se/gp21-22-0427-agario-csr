@@ -2,14 +2,35 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 namespace OpenWord_MMO
 {
     public class OpenWordClient : MonoBehaviour
 
     {
-        static void Main()
+        [SerializeField] private InputField _textField;
+        [SerializeField] private Text text;
+        
+        public static IPEndPoint remoteEp = new(IPAddress.Loopback, 44455);
+        public static IPEndPoint server = new(IPAddress.Loopback, 44444);
+        public static UdpClient udpClient = new(remoteEp);
+
+        public void SendRequest()
+        {
+            var massage = _textField.text;
+            var data = Encoding.ASCII.GetBytes(massage);
+            udpClient.Send(data, massage.Length, server);
+            var result = udpClient.Receive(ref server);
+
+            text.text = Encoding.ASCII.GetString(result);
+            Debug.Log(Encoding.ASCII.GetString(result));
+        }
+        
+        /*static void Main()
         {
             var serverEndPoint = new IPEndPoint(IPAddress.Loopback, 44444);
             var clientEndPoint = new IPEndPoint(IPAddress.Loopback, 44455);
@@ -29,6 +50,6 @@ namespace OpenWord_MMO
             
                 client.Close();
             }
-        }
+        }*/
     }
 }
