@@ -11,8 +11,8 @@ namespace OpenWord_MMO
     {
         static void Main()
         {
-            var serverEndPoint = new IPEndPoint(IPAddress.Loopback, 444444);
-            var clientEndPoint = new IPEndPoint(IPAddress.Loopback, 444455);
+            var serverEndPoint = new IPEndPoint(IPAddress.Loopback, 44444);
+            var clientEndPoint = new IPEndPoint(IPAddress.Loopback, 44455);
 
             while (true)
             
