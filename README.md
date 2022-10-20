@@ -2,7 +2,9 @@
 
 https://user-images.githubusercontent.com/90723803/193925190-5f7e8922-fd41-4150-809d-4ca91876dc96.mov
 
-https://user-images.githubusercontent.com/90723803/193916754-b436b3f4-6cdd-4f82-9f0c-7562dc051fce.mov
+
+https://user-images.githubusercontent.com/90723803/197017675-62e29bd0-976e-48ea-a898-2e3ddb48a2a7.mov
+
 
 https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-bf5f-26cf0417c9cd.mov
 
@@ -20,9 +22,9 @@ https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-
 
 ![Time server](https://user-images.githubusercontent.com/90723803/196994964-bbd378e5-7782-456c-abea-bfda5eb97f3c.JPG)
 
-# Part 4 - Open word Client
+# Part 3 and 4 - Open word Client & Server
 
-![Agario-3](https://user-images.githubusercontent.com/90723803/193452562-d091ed45-dd82-46d8-8a48-596709bf4836.JPG)
+![Time server2](https://user-images.githubusercontent.com/90723803/197017080-6cbf8081-56be-4809-adb9-e53c3634bc82.JPG)
 
 
 
