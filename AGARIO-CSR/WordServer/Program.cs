@@ -1,5 +1,4 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
@@ -17,12 +16,24 @@ public class OpenWordServer
         {
             IPEndPoint remoteEndopint = default;
             var data = _udpClient.Receive(ref remoteEndopint);
-            var massageString = Encoding.ASCII.GetString(data).Trim();
+            var messageString = Encoding.ASCII.GetString(data).Trim();
 
-            if (IsValid(massageString)) message += " " + massageString;
+            if (messageString.Contains(" "))
+            {
+                _udpClient.Send(Encoding.ASCII.GetBytes("Error!: You can only send one word et a time!"), remoteEndopint);
+                continue;
+            }
 
+            if (!IsValid(messageString))
+            {
+                _udpClient.Send(Encoding.ASCII.GetBytes("Error!: Input cannot be more than 20 or less then one character long!!"), remoteEndopint);
+                continue;
+            }
+            
+            message += " " + messageString;
             _udpClient.Send(Encoding.ASCII.GetBytes(message), message.Length, remoteEndopint);
         }
+        
     }
 
     private static bool IsValid(String text) => text.Length > 0 && text.Length <= maxLenght;
