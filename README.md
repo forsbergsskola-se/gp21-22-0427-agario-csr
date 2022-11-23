@@ -1,3 +1,34 @@
+# AgarioGame -My own version of Agar.io
+
+https://user-images.githubusercontent.com/90723803/193925190-5f7e8922-fd41-4150-809d-4ca91876dc96.mov
+
+
+https://user-images.githubusercontent.com/90723803/197017675-62e29bd0-976e-48ea-a898-2e3ddb48a2a7.mov
+
+
+https://user-images.githubusercontent.com/90723803/193916367-7cc72a28-1914-49bb-bf5f-26cf0417c9cd.mov
+
+
+
+
+# Part 1 - Time Server
+
+
+![Agario-2](https://user-images.githubusercontent.com/90723803/188310098-ca95858d-7f94-467d-a1d5-4ee4f2016d85.JPG)
+
+![Agario-3](https://user-images.githubusercontent.com/90723803/188310018-844620ff-07b5-4196-bb64-acd114e7b0c9.jpg)
+
+# Part 2 - Time Client
+
+![Time server](https://user-images.githubusercontent.com/90723803/196994964-bbd378e5-7782-456c-abea-bfda5eb97f3c.JPG)
+
+# Part 3 and 4 - Open word Client & Server
+
+![Time server2](https://user-images.githubusercontent.com/90723803/197017080-6cbf8081-56be-4809-adb9-e53c3634bc82.JPG)
+
+
+
+
 # Goal of this Assignment
 The goal of this assignment is to introduce you to Game-Server-Development using `C#` and the `TCP` and `UDP` Protocols.\
 In total, our steps will include:
